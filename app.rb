@@ -8,7 +8,15 @@ class App < Sinatra::Base
   
   get '/name' do
     "My name is __"
-    erb :'medicines/index.html.erb'
+    erb :'name/index.html.erb'
   end
   
+  get '/hometown' do
+    "My hometown is __"
+    erb :'hometown/index.html.erb'
+  end
+  
+  get '/favorite-song' do
+    "My favorite song is __"
+  end
 end
