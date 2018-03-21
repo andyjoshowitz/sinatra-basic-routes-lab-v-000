@@ -7,17 +7,14 @@ class App < Sinatra::Base
   end
   
   get '/name' do
-    "My name is __"
-    erb :'name/index.html.erb'
+    "My name is "
   end
   
   get '/hometown' do
-    "My hometown is __"
-    #erb :'hometown/index.html.erb'
+    "My hometown is "
   end
   
   get '/favorite-song' do
-    "My favorite song is __"
-    erb :'favorite-song/index.html.erb'
+    "My favorite song is "
   end
 end
