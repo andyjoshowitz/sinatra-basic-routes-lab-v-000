@@ -7,7 +7,8 @@ class App < Sinatra::Base
   end
   
   get '/name' do
-    @name = name.new
+    "My name is __"
+    erb :'medicines/index.html.erb'
   end
   
 end
